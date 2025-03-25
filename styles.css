@@ -1,1 +1,64 @@
-/*  your css code here. If applicable */
+body {
+            background-color: rgb(204, 204, 204);
+            font-family: Arial, sans-serif;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        h2 {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .playlist-container {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px auto;
+            width: 400px;
+            text-align: left;
+        }
+        
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+        
+        li {
+            list-style-type: none;
+            margin: 10px 0;
+        }
+        
+        a {
+            text-decoration-line: none;
+            color: black;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .player_one {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px auto;
+            width: 640px;
+            text-align: center;
+        }
+        
+        .player_two {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px auto;
+            width: 320px;
+            text-align: center;
+        }
+        
+        video, audio {
+            width: 100%;
+        }

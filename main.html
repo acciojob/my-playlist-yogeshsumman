@@ -1,16 +1,104 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>My Playlist</title>
+    <style>
+        body {
+            background-color: rgb(204, 204, 204);
+            font-family: Arial, sans-serif;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        h2 {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .playlist-container {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px auto;
+            width: 200px;
+            text-align: left;
+        }
+        
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+        
+        li {
+            list-style-type: none;
+            margin: 10px 0;
+        }
+        
+        a {
+            text-decoration-line: none;
+            color: black;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .player_one {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px auto;
+            width: 640px;
+            text-align: center;
+        }
+        
+        .player_two {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px auto;
+            width: 320px;
+            text-align: center;
+        }
+        
+        video, audio {
+            width: 100%;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <h1>My Playlist</h1>
+    
+    <div class="playlist-container">
+        <ul>
+            <li><a href="https://www.pagalworld.com.se/files/download/id/64630" target="_blank">Song 1</a></li>
+            <li><a href="https://www.pagalworld.com.se/files/download/id/64630" target="_blank">Song 2</a></li>
+            <li><a href="https://www.pagalworld.com.se/files/download/id/64630" target="_blank">Song 3</a></li>
+            <li><a href="https://www.pagalworld.com.se/files/download/id/64630" target="_blank">Song 4</a></li>
+            <li><a href="https://www.pagalworld.com.se/files/download/id/64630" target="_blank">Song 5</a></li>
+        </ul>
+    </div>
+    
+    <h2>Now Playing...</h2>
+    
+    <div class="player_one">
+        <video controls>
+            <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    
+    <h2>MP3 Songs</h2>
+    
+    <div class="player_two">
+        <audio controls>
+            <source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
 </body>
-
 </html>
